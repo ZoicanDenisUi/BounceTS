@@ -1,0 +1,59 @@
+#title{
+    text-align:center;
+    font-size: 2rem;
+    color: coral;
+    font-weight: 900;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
+#title:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#startButton{
+    display:block;
+    margin:1rem auto;
+    width:4rem
+}
+
+.circle{
+    border-radius: 100%;
+    position: absolute;
+}
+
+#bounceDiv{
+    border:1px solid #d3d3d3;
+    width:80%;
+    height:20rem;
+    margin-left:10%;
+}
+
+#description{
+    color:rgb(95, 47, 30);
+    margin-top:2rem;
+    text-align: center;
+    font-weight:900;
+    width:50%;
+    margin-left:25%;
+    background-color: rgb(240, 240, 240);
+    padding:1rem;
+    border-radius: 10px;
+    border:rgb(95, 47, 30) 1px solid;
+}
+
+#ballCountDiv{
+    width:30%;
+    justify-content: center;
+    margin:auto auto;
+    display:flex;
+}
+
+#ballCountLabel{
+    margin-right:1rem;
+}
+#ballCountInput{
+    width:20%;
+}
